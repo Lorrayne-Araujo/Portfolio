@@ -1,0 +1,88 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font: 15px Arial, sans-serif;
+    background-color: #eadbc8;
+}
+
+.navbar{
+    background-color: #ff6b6b;
+    padding: 20px;
+}
+
+.sobre-mim{
+    border:solid #ccc;
+    padding: 15px;
+}
+
+.portfolio{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border:solid #ccc;
+    padding: 15px;
+}
+
+.col-lg-4{
+    border: black solid;
+    margin: 5px;
+    padding: 15px;
+    background-color:  #f4ece2;
+}
+
+.margin{
+    padding-bottom: 25px;
+    padding-top: 15px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ccc;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 10px 2% 10px;
+}
+
+.fa-envelope-open-o{
+    font-size: 35px;
+}
+
+.fa-github{
+    font-size: 35px;
+}
+
+.fa-linkedin{
+    font-size: 35px;
+}
+
+.fa-whatsapp{
+    font-size: 35px;
+}
+
+.email-content,
+.github-content,
+.linkedin-content,
+.whatsapp-content{
+    padding-left: 5%;
+}
+
+.whatsapp-content{
+    width: 150px;
+}
+
+.footer-content a {
+    text-decoration: none;
+    color: blue;
+    font-size: 130%;
+}
